@@ -1,8 +1,8 @@
-7cda941d5751947059df8449bf052fe7 *DESCRIPTION
+bab0ecb164cdf2b6aacef92c1d93d90a *DESCRIPTION
 e3655600c9597e63ba199f7dccba5cac *LICENSE
 faaadcb166784170c7f7495e57ea2432 *NAMESPACE
-ed867f6fe05a729fa665c5fba9d26941 *NEWS
-9e30f20161512a18f00fb63ed2b25bee *R/ecap.R
+b7ca1f48c3f794eb6a0230a289f0aeb0 *NEWS
+fb4bd19ed72e6ec5cb747d90e4d60090 *R/ecap.R
 b3fb2db8e11fd8efbb05cb3d50538117 *R/ecap_functions.R
 2b1ad7eba7aafc795bcb0ccfa1432835 *R/elections_2018.R
 3e74f87cac6c997b9fa582f4ff9fa50f *R/espn.R
@@ -12,7 +12,7 @@ d2ef5e64e1233209d46779f0481acb42 *data/espn.rda
 3fbdd547047898875b7abbb7548f30eb *inst/doc/ecap-demo.R
 5b52aaf8ccdfdcd41a7c6b4272d4c954 *inst/doc/ecap-demo.Rmd
 7244a9c0886ce4d5c09f2fa8c8651990 *inst/doc/ecap-demo.html
-a776845c6b329dc2bcc8961c65542566 *man/ecap.Rd
+bfafde35188f5f20f5977226e5678f71 *man/ecap.Rd
 da14875e8d6af87f642e224a73755079 *man/elections_2018.Rd
 460e3d33888f246ab2f6ffa4b8ab30db *man/espn.Rd
 9db6a850d4b3616601d4a26f9b5aa2dd *man/figures/README-unnamed-chunk-8-1.pdf

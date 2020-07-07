@@ -1,7 +1,7 @@
 #' Estimate parameters for the ECAP adjustment
 #'
 #' This function estimates 3 parameters that are needed to preform the ECAP adjustment. As such, it is meant to be used
-#' together with the ecap_adj() function included in the "ecap" package. The parameters estimated are the level of corruption
+#' together with the predict.ecap() function included in the "ecap" package. The parameters estimated are the level of corruption
 #' and bias in the given unadjusted probability estimates, along with a tuning parameter needed to adjust the level of
 #' smoothness in the ECAP estimation.
 #'
@@ -409,6 +409,10 @@ predict.ecap <- function(object, new_unadjusted, ...) {
                           omega, basis_0, basis_1, basis_sum, basis_0.grid, basis_1.grid)
 
   ecap_new <- tail(ecap_old_new, length(new_unadjusted))
+
+  ## Return valid probabilities
+  ecap_new[ecap_new < 0] <- 0
+  ecap_new[ecap_new > 1] <- 1
 
   return(ecap_new)
 }

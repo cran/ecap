@@ -1,3 +1,7 @@
+Changes in Version 0.1.1 (2020-07-06)
+
+Minor update. Patched the predict.ecap() function to handle extreme estimation errors. 
+
 Changes in Version 0.1.0 (2020-06-19)
 
-The variables package was first published on CRAN.
+The ecap package was first published on CRAN.

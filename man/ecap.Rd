@@ -36,7 +36,7 @@ are given as part of the output.
 }
 \description{
 This function estimates 3 parameters that are needed to preform the ECAP adjustment. As such, it is meant to be used
-together with the ecap_adj() function included in the "ecap" package. The parameters estimated are the level of corruption
+together with the predict.ecap() function included in the "ecap" package. The parameters estimated are the level of corruption
 and bias in the given unadjusted probability estimates, along with a tuning parameter needed to adjust the level of
 smoothness in the ECAP estimation.
 }
