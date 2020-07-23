@@ -1,3 +1,7 @@
+Changes in Version 0.1.2 (2020-07-22)
+
+Minor update. Edited the license agreement and added the JASA doi to the description.
+
 Changes in Version 0.1.1 (2020-07-06)
 
 Minor update. Patched the predict.ecap() function to handle extreme estimation errors. 
